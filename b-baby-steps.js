@@ -1,9 +1,9 @@
-var i
+var index
 , total = 0;
 
-for(i = 2; i < process.argv.length; i++) {
+for(index = 2; index < process.argv.length; index++) {
 
-  total = total + Number(process.argv[i]);
+  total = total + Number(process.argv[index]);
 }
 
 console.log(total);
